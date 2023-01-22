@@ -42,13 +42,15 @@ h5 {
 }
 
 h6 {
-    color: #ffe6e6e6;
+    color: #7c7575e6;
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 i {
-    color: #ffe6e6e6;
-    font-size: 0.60rem;
-
+    color: #948d8de6;
+    font-size: 0.65rem;
 }
 
 strong {
@@ -87,4 +89,32 @@ strong {
 
 .fa-github {
   color: black;
+}
+
+p {
+font: 400;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1rem;
+text-align: center;
+padding: 1px;
+}
+
+span {
+  font: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  }
+
+
+.p-text {
+color: #948d8de6;
+font-size: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .container-sm-12 {
+    height: 100%;
+    width: 100%;
+  }
 }
