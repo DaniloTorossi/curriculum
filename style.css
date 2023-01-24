@@ -122,4 +122,9 @@ span {
     height: 100%;
     width: 100%;
   }
+  .datos-personales {
+    background: linear-gradient(45deg, #113366 60%, #dfe0e0 40%);
+    border-left: #101010 5px solid;
+    text-align: center;
+  }
 }
