@@ -4,15 +4,20 @@
   box-sizing: border-box;
 }
 
-a {
-  color: #cac5dd;
-  text-decoration: none;
-  padding: 5px;
-  font-size: 1rem;
+.h4 {
+  color: #113366;
 }
+
+a {
+  font-weight: 200;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #444444;
+}
+
 a:hover {
-  color: rgb(255, 123, 0);
-  text-decoration: underline 1.5px coral;
+  color: rgb(167, 218, 238);
+  box-shadow: 0px 1.5px 1.5px 0px #fff;
+  text-decoration: underline 1.5px #113366;
 }
 
 .contenedor {
@@ -23,11 +28,10 @@ a:hover {
   width: 100%;
 }
 .datos-personales {
-  background: linear-gradient(225deg, #0a0f75dc 50%,#ffffffe6 50%); 
+  background: linear-gradient(225deg, #113366 60%, #dfe0e0 20%);
   border-left: #101010 5px solid;
   text-align: center;
 }
-
 .foto-perfil {
   width: 100%;
   max-width: 150px;
@@ -37,20 +41,21 @@ a:hover {
 }
 
 h5 {
-    color: #ffe6e6e6;
-    border-bottom: 3px solid #ffe6e6e6;
+  color: #fff;
+  border-bottom: 3px solid #fff;
 }
 
 h6 {
-    color: #7c7575e6;
-    text-decoration-line: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+  color: #fff;
+  text-decoration-line: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 i {
-    color: #948d8de6;
-    font-size: 0.65rem;
+  color: #fff;
+  font-size: 0.65rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 strong {
@@ -59,13 +64,13 @@ strong {
 
 .cabecera {
   border-bottom: 5px solid rgb(167, 218, 238);
-  color: #0a0f75dc;
+  color: #113366;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .separador {
-  border-bottom: 4px solid rgb(167, 218, 238);
+  border-bottom: 4px solid #b1d4e0;
   line-height: 2rem;
   padding-bottom: 10px;
 }
@@ -92,25 +97,25 @@ strong {
 }
 
 p {
-font: 400;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 1rem;
-text-align: center;
-padding: 1px;
+  font: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1px;
+  color: #444444;
 }
 
 span {
   font: 400;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
-  }
-
-
-.p-text {
-color: #948d8de6;
-font-size: 1rem;
 }
 
+.p-text {
+  color: #fff;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 @media (max-width: 600px) {
   .container-sm-12 {
